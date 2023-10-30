@@ -16,7 +16,8 @@ public class Main {
         System.out.print("Enter grade four: ");
         double grade4 = input.nextDouble();
         System.out.println("");
-        System.out.println("Your average is " + GradeAverage.average(grade1, grade2, grade3, grade4) + ".");
+        System.out.printf("Your average is %.2f" , GradeAverage.average(grade1, grade2, grade3, grade4));
+        System.out.println(".");
         System.out.println("You have a(n) " + GradeAverage.gradeLetter(grade1, grade2, grade3, grade4) + ".");
 
 
